@@ -40,7 +40,8 @@ public class CryptographyProject
         Scanner input = new Scanner(System.in);*/
         /*BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         plaintext = br.readLine();*/
-        
+        System.out.println("Input Is : "+plaintext);
+        System.out.println("Length of Plaintext is "+plaintext.length());
         String ciphertext = "";
         String ciphertextGenerate = "";
         
